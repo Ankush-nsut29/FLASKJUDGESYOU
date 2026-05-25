@@ -141,3 +141,34 @@ form .btn:active {
     box-shadow: 1px 1px 0px #ADFF2F;
     transform: translate(2px, 2px);
 }
+
+
+@media (max-width: 650px) {
+  
+    form .type, 
+    form .time {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+
+    form .type h1, 
+    form .time h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    form {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    form .type select, 
+    form .time select, 
+    form .hints input {
+        width: 100%;
+        max-width: 250px;
+    }
+}
