@@ -1,3 +1,5 @@
+#THE WHOLE LOGIC IS BASED ON DICTIONARIES
+
 from flask import Flask,render_template,redirect,url_for,request
 
 app=Flask(__name__)
